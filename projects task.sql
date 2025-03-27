@@ -90,7 +90,7 @@ WHERE member_id = 'C101'; -- to check update
 
 
 
- -- Task 7: Find Total Rental Income by Category_:
+ -- 7: Find Total Rental Income by Category_:
 
 SELECT
    category,
