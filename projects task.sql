@@ -136,7 +136,7 @@ ON ist.issued_book_isbn = isbn_
 GROUP BY
     isbn_, book_title;
 
--- Task 10. Create a Table of Books with Rental Price Above a Certain Threshold 7USD:
+-- 10. Create a Table of Books with Rental Price Above a Certain Threshold 7USD:
 
 
 --CREATE TABLE HighPricedBooks AS
@@ -163,7 +163,6 @@ WHERE rs.return_id IS NULL;
 
 
 --12 :-  List Members Who Registered in the Last 180 Days:
-
 INSERT INTO members(member_id, member_name, member_address, reg_date)
 VALUES
 ('C121', 'sam', '154 Main St', '2025-03-01'),
